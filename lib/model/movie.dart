@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 class movie {
   String title;
   int votes;
-  String imgPath = "assets/t.png";
-  movie({this.title,this.votes});
+  String imgPath ;
+  String langu ;
+  String bannerPath;
+  movie({this.title,this.votes,this.imgPath,this.langu});
 }
 
 

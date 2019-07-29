@@ -13,9 +13,12 @@ class movieNameWidget extends StatelessWidget {
       elevation: 20.0 ,
       color: primaryColor ,
       shape: customShapeBorder(),
-      child: Text(
-        movie1.title,
-        style: forumNameTextStyle,
+      child: Padding(
+        padding: EdgeInsets.only(top :18.0, left :16.0,right: 24.0,bottom: 10.0),
+        child: Text(
+          movie1.langu,
+          style: forumNameTextStyle,
+        ),
       ),
     );
   }
